@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-batch-match-staged"
+description = "Enables the batch_match_staged command without any pre-configured scope."
+commands.allow = ["batch_match_staged"]
+
+[[permission]]
+identifier = "deny-batch-match-staged"
+description = "Denies the batch_match_staged command without any pre-configured scope."
+commands.deny = ["batch_match_staged"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-retry-retrieval"
+description = "Enables the retry_retrieval command without any pre-configured scope."
+commands.allow = ["retry_retrieval"]
+
+[[permission]]
+identifier = "deny-retry-retrieval"
+description = "Denies the retry_retrieval command without any pre-configured scope."
+commands.deny = ["retry_retrieval"]

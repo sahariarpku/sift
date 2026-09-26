@@ -1,0 +1,16 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/schemas/
+.DS_Store
+*.sift
+*.sift-wal
+*.sift-shm
+.statamcp/
+.claude/settings.local.json
+*.db
+*.db-wal
+*.db-shm
+.env
+.env.*
+*.log

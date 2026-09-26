@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-read-download"
+description = "Enables the read_download command without any pre-configured scope."
+commands.allow = ["read_download"]
+
+[[permission]]
+identifier = "deny-read-download"
+description = "Denies the read_download command without any pre-configured scope."
+commands.deny = ["read_download"]

@@ -1,0 +1,93 @@
+{
+ "object": "list",
+ "data": [
+  {
+   "id": "auto",
+   "object": "model",
+   "created": 0,
+   "owned_by": "freellmapi",
+   "name": "Auto (router picks the best available model)",
+   "context_window": 1048576,
+   "context_length": 1048576,
+   "available": true,
+   "unavailable_reason": null
+  },
+  {
+   "id": "fusion",
+   "object": "model",
+   "created": 0,
+   "owned_by": "freellmapi",
+   "name": "Fusion (panel of models answer in parallel, a judge synthesizes one answer)",
+   "context_window": 1048576,
+   "context_length": 1048576,
+   "available": true,
+   "unavailable_reason": null
+  },
+  {
+   "id": "claude-opus-4-5",
+   "object": "model",
+   "created": 0,
+   "owned_by": "freellmapi",
+   "name": "Opus slot (auto-routed to a free model)",
+   "context_window": 1048576,
+   "context_length": 1048576,
+   "available": true,
+   "unavailable_reason": null
+  },
+  {
+   "id": "claude-sonnet-4-5",
+   "object": "model",
+   "created": 0,
+   "owned_by": "freellmapi",
+   "name": "Sonnet slot (auto-routed to a free model)",
+   "context_window": 1048576,
+   "context_length": 1048576,
+   "available": true,
+   "unavailable_reason": null
+  },
+  {
+   "id": "claude-haiku-4-5",
+   "object": "model",
+   "created": 0,
+   "owned_by": "freellmapi",
+   "name": "Haiku slot (auto-routed to a free model)",
+   "context_window": 1048576,
+   "context_length": 1048576,
+   "available": true,
+   "unavailable_reason": null
+  },
+  {
+   "id": "kimi-k3",
+   "object": "model",
+   "created": 0,
+   "owned_by": "freellmapi",
+   "name": "Kimi K3",
+   "context_window": 262144,
+   "context_length": 262144,
+   "available": true,
+   "unavailable_reason": null,
+   "supported_parameters": [
+    "temperature",
+    "top_p",
+    "max_tokens",
+    "max_completion_tokens",
+    "stop",
+    "stream",
+    "top_k",
+    "min_p",
+    "seed",
+    "presence_penalty",
+    "frequency_penalty",
+    "repetition_penalty",
+    "logit_bias",
+    "logprobs",
+    "top_logprobs",
+    "response_format",
+    "reasoning_effort",
+    "tools",
+    "tool_choice",
+    "parallel_tool_calls"
+   ]
+  }
+ ]
+}

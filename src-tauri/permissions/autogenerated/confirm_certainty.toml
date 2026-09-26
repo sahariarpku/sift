@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-confirm-certainty"
+description = "Enables the confirm_certainty command without any pre-configured scope."
+commands.allow = ["confirm_certainty"]
+
+[[permission]]
+identifier = "deny-confirm-certainty"
+description = "Denies the confirm_certainty command without any pre-configured scope."
+commands.deny = ["confirm_certainty"]

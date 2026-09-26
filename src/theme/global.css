@@ -1,0 +1,157 @@
+:root {
+  --color-ground: #F6F4EE;
+  --color-sidebar: #EFECE3;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F4F2EC;
+  --color-line: #DDD8CC;
+  --color-line-strong: #C8C2B4;
+  --color-ink: #1C1B19;
+  --color-ink-body: #2A2824;
+  --color-ink-secondary: #3D3A34;
+  --color-ink-muted: #5E5A52;
+  --color-accent: #1F5F5B;
+  --color-accent-deep: #14403D;
+  --color-accent-soft: #E3EEEC;
+  --color-accent-border: #B9D3CF;
+  --color-exclude: #8A4A12;
+  --color-warn-text: #6B4510;
+  --color-warn-soft: #F7EBD5;
+  --color-warn-border: #C9A56A;
+  --color-highlight: #FCE9C8;
+  --color-pending: #BDB7A8;
+
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-ui: 'IBM Plex Sans', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+
+  /* Depth and motion. Shadows are warm and low so cards sit on the paper
+     rather than float above it. */
+  --radius-xl: 16px;
+  --line-soft: rgba(28, 27, 25, 0.07);
+  --shadow-xs: 0 1px 0 rgba(28, 27, 25, 0.04);
+  --shadow-sm: 0 1px 2px rgba(28, 27, 25, 0.05), 0 1px 1px rgba(28, 27, 25, 0.03);
+  --shadow-md: 0 1px 2px rgba(28, 27, 25, 0.04), 0 6px 20px -8px rgba(28, 27, 25, 0.12);
+  --shadow-lg: 0 2px 4px rgba(28, 27, 25, 0.04), 0 18px 48px -18px rgba(28, 27, 25, 0.22);
+  --ring: 0 0 0 3px rgba(31, 95, 91, 0.22);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--color-ground);
+  color: var(--color-ink-body);
+  font-family: var(--font-ui);
+  font-size: 15px;
+  line-height: 1.55;
+  font-feature-settings: 'kern', 'liga', 'tnum' 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--color-ink);
+  letter-spacing: -0.01em;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  transition:
+    background-color 140ms var(--ease),
+    border-color 140ms var(--ease),
+    color 140ms var(--ease),
+    box-shadow 140ms var(--ease),
+    transform 140ms var(--ease);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0.5px);
+}
+
+input,
+select,
+textarea {
+  transition:
+    border-color 140ms var(--ease),
+    box-shadow 140ms var(--ease);
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: var(--ring);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+  color: var(--color-accent-deep);
+}
+
+/* Quiet scrollbars that still show where you are. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-line-strong) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-line-strong);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation-duration: 0.01ms !important;
+  }
+}

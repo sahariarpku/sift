@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-prisma-svg"
+description = "Enables the prisma_svg command without any pre-configured scope."
+commands.allow = ["prisma_svg"]
+
+[[permission]]
+identifier = "deny-prisma-svg"
+description = "Denies the prisma_svg command without any pre-configured scope."
+commands.deny = ["prisma_svg"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-list-task-assignments"
+description = "Enables the list_task_assignments command without any pre-configured scope."
+commands.allow = ["list_task_assignments"]
+
+[[permission]]
+identifier = "deny-list-task-assignments"
+description = "Denies the list_task_assignments command without any pre-configured scope."
+commands.deny = ["list_task_assignments"]

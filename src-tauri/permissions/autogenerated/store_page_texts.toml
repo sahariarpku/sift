@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-store-page-texts"
+description = "Enables the store_page_texts command without any pre-configured scope."
+commands.allow = ["store_page_texts"]
+
+[[permission]]
+identifier = "deny-store-page-texts"
+description = "Denies the store_page_texts command without any pre-configured scope."
+commands.deny = ["store_page_texts"]

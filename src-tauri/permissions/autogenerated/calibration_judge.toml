@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-calibration-judge"
+description = "Enables the calibration_judge command without any pre-configured scope."
+commands.allow = ["calibration_judge"]
+
+[[permission]]
+identifier = "deny-calibration-judge"
+description = "Denies the calibration_judge command without any pre-configured scope."
+commands.deny = ["calibration_judge"]

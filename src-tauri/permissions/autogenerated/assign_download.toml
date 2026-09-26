@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-assign-download"
+description = "Enables the assign_download command without any pre-configured scope."
+commands.allow = ["assign_download"]
+
+[[permission]]
+identifier = "deny-assign-download"
+description = "Denies the assign_download command without any pre-configured scope."
+commands.deny = ["assign_download"]

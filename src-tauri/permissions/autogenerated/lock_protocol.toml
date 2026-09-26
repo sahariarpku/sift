@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-lock-protocol"
+description = "Enables the lock_protocol command without any pre-configured scope."
+commands.allow = ["lock_protocol"]
+
+[[permission]]
+identifier = "deny-lock-protocol"
+description = "Denies the lock_protocol command without any pre-configured scope."
+commands.deny = ["lock_protocol"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-regenerate-mcp-token"
+description = "Enables the regenerate_mcp_token command without any pre-configured scope."
+commands.allow = ["regenerate_mcp_token"]
+
+[[permission]]
+identifier = "deny-regenerate-mcp-token"
+description = "Denies the regenerate_mcp_token command without any pre-configured scope."
+commands.deny = ["regenerate_mcp_token"]

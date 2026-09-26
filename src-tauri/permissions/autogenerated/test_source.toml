@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-test-source"
+description = "Enables the test_source command without any pre-configured scope."
+commands.allow = ["test_source"]
+
+[[permission]]
+identifier = "deny-test-source"
+description = "Denies the test_source command without any pre-configured scope."
+commands.deny = ["test_source"]

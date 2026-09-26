@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-pending-pdf-texts"
+description = "Enables the pending_pdf_texts command without any pre-configured scope."
+commands.allow = ["pending_pdf_texts"]
+
+[[permission]]
+identifier = "deny-pending-pdf-texts"
+description = "Denies the pending_pdf_texts command without any pre-configured scope."
+commands.deny = ["pending_pdf_texts"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-skip-gate"
+description = "Enables the skip_gate command without any pre-configured scope."
+commands.allow = ["skip_gate"]
+
+[[permission]]
+identifier = "deny-skip-gate"
+description = "Denies the skip_gate command without any pre-configured scope."
+commands.deny = ["skip_gate"]

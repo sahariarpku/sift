@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-resume-stage"
+description = "Enables the resume_stage command without any pre-configured scope."
+commands.allow = ["resume_stage"]
+
+[[permission]]
+identifier = "deny-resume-stage"
+description = "Denies the resume_stage command without any pre-configured scope."
+commands.deny = ["resume_stage"]

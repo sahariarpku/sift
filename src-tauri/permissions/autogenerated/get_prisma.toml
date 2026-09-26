@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-get-prisma"
+description = "Enables the get_prisma command without any pre-configured scope."
+commands.allow = ["get_prisma"]
+
+[[permission]]
+identifier = "deny-get-prisma"
+description = "Denies the get_prisma command without any pre-configured scope."
+commands.deny = ["get_prisma"]

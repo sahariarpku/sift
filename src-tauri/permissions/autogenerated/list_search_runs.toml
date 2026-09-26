@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-list-search-runs"
+description = "Enables the list_search_runs command without any pre-configured scope."
+commands.allow = ["list_search_runs"]
+
+[[permission]]
+identifier = "deny-list-search-runs"
+description = "Denies the list_search_runs command without any pre-configured scope."
+commands.deny = ["list_search_runs"]

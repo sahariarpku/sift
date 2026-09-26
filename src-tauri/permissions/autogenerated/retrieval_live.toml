@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-retrieval-live"
+description = "Enables the retrieval_live command without any pre-configured scope."
+commands.allow = ["retrieval_live"]
+
+[[permission]]
+identifier = "deny-retrieval-live"
+description = "Denies the retrieval_live command without any pre-configured scope."
+commands.deny = ["retrieval_live"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-laya-status"
+description = "Enables the laya_status command without any pre-configured scope."
+commands.allow = ["laya_status"]
+
+[[permission]]
+identifier = "deny-laya-status"
+description = "Denies the laya_status command without any pre-configured scope."
+commands.deny = ["laya_status"]

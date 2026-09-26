@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-study-extraction"
+description = "Enables the study_extraction command without any pre-configured scope."
+commands.allow = ["study_extraction"]
+
+[[permission]]
+identifier = "deny-study-extraction"
+description = "Denies the study_extraction command without any pre-configured scope."
+commands.deny = ["study_extraction"]

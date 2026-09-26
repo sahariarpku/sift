@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-open-via-proxy"
+description = "Enables the open_via_proxy command without any pre-configured scope."
+commands.allow = ["open_via_proxy"]
+
+[[permission]]
+identifier = "deny-open-via-proxy"
+description = "Denies the open_via_proxy command without any pre-configured scope."
+commands.deny = ["open_via_proxy"]

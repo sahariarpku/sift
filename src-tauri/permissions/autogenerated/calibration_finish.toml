@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-calibration-finish"
+description = "Enables the calibration_finish command without any pre-configured scope."
+commands.allow = ["calibration_finish"]
+
+[[permission]]
+identifier = "deny-calibration-finish"
+description = "Denies the calibration_finish command without any pre-configured scope."
+commands.deny = ["calibration_finish"]

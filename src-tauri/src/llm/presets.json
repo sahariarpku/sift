@@ -1,0 +1,135 @@
+{
+  "_sources": {
+    "anthropic": "https://platform.claude.com/docs/en/get-api-key ; Messages API https://api.anthropic.com/v1/messages, headers x-api-key + anthropic-version 2023-06-01",
+    "openai": "https://platform.openai.com/docs/api-reference/chat",
+    "openrouter": "https://openrouter.ai/docs/api_reference/overview (base https://openrouter.ai/api/v1)",
+    "gemini": "https://ai.google.dev/gemini-api/docs/openai (base https://generativelanguage.googleapis.com/v1beta/openai/)",
+    "groq": "https://console.groq.com/docs/openai (base https://api.groq.com/openai/v1)",
+    "mistral": "https://docs.mistral.ai/api/endpoint/chat (POST https://api.mistral.ai/v1/chat/completions)",
+    "ollama": "https://docs.ollama.com/api/openai-compatibility (http://localhost:11434/v1)",
+    "lmstudio": "LM Studio local server, OpenAI-compatible at http://localhost:1234/v1",
+    "mcp_bridge": "Sift's own MCP bridge (src/mcp). Answers come from the assistant connected over MCP; see https://modelcontextprotocol.io/specification/2025-11-25/basic/transports"
+  },
+  "presets": [
+    {
+      "id": "anthropic",
+      "display_name": "Anthropic",
+      "protocol": "anthropic",
+      "base_url": "https://api.anthropic.com",
+      "requires_key": true,
+      "local": false,
+      "get_key_url": "https://platform.claude.com/settings/keys",
+      "data_policy_warning": false,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "openai",
+      "display_name": "OpenAI",
+      "protocol": "openai_compat",
+      "base_url": "https://api.openai.com/v1",
+      "requires_key": true,
+      "local": false,
+      "get_key_url": "https://platform.openai.com/api-keys",
+      "data_policy_warning": false,
+      "structured_output": true,
+      "max_tokens_param": "max_completion_tokens"
+    },
+    {
+      "id": "openrouter",
+      "display_name": "OpenRouter",
+      "protocol": "openai_compat",
+      "base_url": "https://openrouter.ai/api/v1",
+      "requires_key": true,
+      "local": false,
+      "get_key_url": "https://openrouter.ai/settings/keys",
+      "data_policy_warning": true,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "gemini",
+      "display_name": "Google Gemini",
+      "protocol": "openai_compat",
+      "base_url": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "requires_key": true,
+      "local": false,
+      "get_key_url": "https://aistudio.google.com/apikey",
+      "data_policy_warning": true,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "groq",
+      "display_name": "Groq",
+      "protocol": "openai_compat",
+      "base_url": "https://api.groq.com/openai/v1",
+      "requires_key": true,
+      "local": false,
+      "get_key_url": "https://console.groq.com/keys",
+      "data_policy_warning": false,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "mistral",
+      "display_name": "Mistral",
+      "protocol": "openai_compat",
+      "base_url": "https://api.mistral.ai/v1",
+      "requires_key": true,
+      "local": false,
+      "get_key_url": "https://console.mistral.ai/home?profile_dialog=api-keys",
+      "data_policy_warning": true,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "ollama",
+      "display_name": "Ollama (on this computer)",
+      "protocol": "openai_compat",
+      "base_url": "http://localhost:11434/v1",
+      "requires_key": false,
+      "local": true,
+      "get_key_url": null,
+      "data_policy_warning": false,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "lmstudio",
+      "display_name": "LM Studio (on this computer)",
+      "protocol": "openai_compat",
+      "base_url": "http://localhost:1234/v1",
+      "requires_key": false,
+      "local": true,
+      "get_key_url": null,
+      "data_policy_warning": false,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "mcp_bridge",
+      "display_name": "Claude or ChatGPT (via MCP)",
+      "protocol": "openai_compat",
+      "base_url": "http://localhost:31480/bridge/v1",
+      "requires_key": false,
+      "local": true,
+      "get_key_url": null,
+      "data_policy_warning": true,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    },
+    {
+      "id": "custom",
+      "display_name": "Custom (OpenAI-compatible)",
+      "protocol": "openai_compat",
+      "base_url": "https://",
+      "requires_key": false,
+      "local": false,
+      "get_key_url": null,
+      "data_policy_warning": true,
+      "structured_output": true,
+      "max_tokens_param": "max_tokens"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-hand-screening-to-me"
+description = "Enables the hand_screening_to_me command without any pre-configured scope."
+commands.allow = ["hand_screening_to_me"]
+
+[[permission]]
+identifier = "deny-hand-screening-to-me"
+description = "Denies the hand_screening_to_me command without any pre-configured scope."
+commands.deny = ["hand_screening_to_me"]

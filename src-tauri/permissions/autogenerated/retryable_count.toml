@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-retryable-count"
+description = "Enables the retryable_count command without any pre-configured scope."
+commands.allow = ["retryable_count"]
+
+[[permission]]
+identifier = "deny-retryable-count"
+description = "Denies the retryable_count command without any pre-configured scope."
+commands.deny = ["retryable_count"]

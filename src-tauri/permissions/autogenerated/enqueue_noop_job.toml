@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-enqueue-noop-job"
+description = "Enables the enqueue_noop_job command without any pre-configured scope."
+commands.allow = ["enqueue_noop_job"]
+
+[[permission]]
+identifier = "deny-enqueue-noop-job"
+description = "Denies the enqueue_noop_job command without any pre-configured scope."
+commands.deny = ["enqueue_noop_job"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-list-appraisals"
+description = "Enables the list_appraisals command without any pre-configured scope."
+commands.allow = ["list_appraisals"]
+
+[[permission]]
+identifier = "deny-list-appraisals"
+description = "Denies the list_appraisals command without any pre-configured scope."
+commands.deny = ["list_appraisals"]

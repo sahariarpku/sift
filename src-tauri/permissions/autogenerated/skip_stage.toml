@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-skip-stage"
+description = "Enables the skip_stage command without any pre-configured scope."
+commands.allow = ["skip_stage"]
+
+[[permission]]
+identifier = "deny-skip-stage"
+description = "Denies the skip_stage command without any pre-configured scope."
+commands.deny = ["skip_stage"]

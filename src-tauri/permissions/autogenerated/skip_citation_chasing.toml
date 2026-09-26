@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-skip-citation-chasing"
+description = "Enables the skip_citation_chasing command without any pre-configured scope."
+commands.allow = ["skip_citation_chasing"]
+
+[[permission]]
+identifier = "deny-skip-citation-chasing"
+description = "Denies the skip_citation_chasing command without any pre-configured scope."
+commands.deny = ["skip_citation_chasing"]

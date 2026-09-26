@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-confirm-links"
+description = "Enables the confirm_links command without any pre-configured scope."
+commands.allow = ["confirm_links"]
+
+[[permission]]
+identifier = "deny-confirm-links"
+description = "Denies the confirm_links command without any pre-configured scope."
+commands.deny = ["confirm_links"]

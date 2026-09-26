@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-synthesis-items"
+description = "Enables the synthesis_items command without any pre-configured scope."
+commands.allow = ["synthesis_items"]
+
+[[permission]]
+identifier = "deny-synthesis-items"
+description = "Denies the synthesis_items command without any pre-configured scope."
+commands.deny = ["synthesis_items"]

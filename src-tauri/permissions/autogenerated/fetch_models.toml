@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-fetch-models"
+description = "Enables the fetch_models command without any pre-configured scope."
+commands.allow = ["fetch_models"]
+
+[[permission]]
+identifier = "deny-fetch-models"
+description = "Denies the fetch_models command without any pre-configured scope."
+commands.deny = ["fetch_models"]

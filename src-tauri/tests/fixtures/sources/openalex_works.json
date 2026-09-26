@@ -1,0 +1,1039 @@
+{
+ "meta": {
+  "count": 7600,
+  "db_response_time_ms": 59,
+  "page": 1,
+  "per_page": 1,
+  "groups_count": null,
+  "x_query": {
+   "oql": "works where year >= (2010)\n  and year <= (2026)\n  and title/abstract has (\n    stemmed \"international students\"\n    and (China or Chinese)\n  )",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "publication_year",
+      "value": 2010,
+      "operator": ">="
+     },
+     {
+      "column_id": "publication_year",
+      "value": 2026,
+      "operator": "<="
+     },
+     {
+      "column_id": "title_and_abstract.search",
+      "value": "\"international students\"",
+      "operator": "has"
+     },
+     {
+      "join": "or",
+      "filters": [
+       {
+        "column_id": "title_and_abstract.search",
+        "value": "China",
+        "operator": "has"
+       },
+       {
+        "column_id": "title_and_abstract.search",
+        "value": "Chinese",
+        "operator": "has"
+       }
+      ]
+     }
+    ]
+   },
+   "url": "/works?filter=publication_year:2010-2026,title_and_abstract.search:%22international students%22,title_and_abstract.search:China|Chinese&per_page=1"
+  },
+  "cost_usd": 0.001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W2310935343",
+   "doi": "https://doi.org/10.1080/03075079.2016.1152466",
+   "title": "Different is not deficient: contradicting stereotypes of Chinese international students in US higher education",
+   "display_name": "Different is not deficient: contradicting stereotypes of Chinese international students in US higher education",
+   "relevance_score": 397.57153,
+   "publication_year": 2016,
+   "publication_date": "2016-03-21",
+   "ids": {
+    "openalex": "https://openalex.org/W2310935343",
+    "doi": "https://doi.org/10.1080/03075079.2016.1152466",
+    "mag": "2310935343"
+   },
+   "language": "en",
+   "primary_location": {
+    "id": "doi:10.1080/03075079.2016.1152466",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1080/03075079.2016.1152466",
+    "pdf_url": null,
+    "source": {
+     "id": "https://openalex.org/S162196882",
+     "display_name": "Studies in Higher Education",
+     "issn_l": "0307-5079",
+     "issn": [
+      "0307-5079",
+      "1470-174X"
+     ],
+     "is_oa": false,
+     "is_in_doaj": false,
+     "is_core": true,
+     "listed_in": [
+      "cwts-core",
+      "erih-plus",
+      "jufo-3",
+      "norway-2"
+     ],
+     "host_organization": "https://openalex.org/P4310319847",
+     "host_organization_name": "Routledge",
+     "host_organization_lineage": [
+      "https://openalex.org/P4310319847",
+      "https://openalex.org/P4310320547"
+     ],
+     "host_organization_lineage_names": [
+      "Routledge",
+      "Taylor & Francis"
+     ],
+     "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Studies in Higher Education",
+    "raw_type": "journal-article"
+   },
+   "type": "article",
+   "indexed_in": [
+    "crossref"
+   ],
+   "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+   },
+   "authorships": [
+    {
+     "author_position": "first",
+     "author": {
+      "id": "https://openalex.org/A5014300381",
+      "display_name": "Tang T. Heng",
+      "orcid": "https://orcid.org/0000-0002-9676-8019"
+     },
+     "institutions": [],
+     "countries": [],
+     "is_corresponding": true,
+     "raw_author_name": "Tang T. Heng",
+     "raw_affiliation_strings": [
+      "National Institute of Education, 1 Nanyang Walk, Singapore 637616, Singapore"
+     ],
+     "raw_orcid": null,
+     "affiliations": [
+      {
+       "raw_affiliation_string": "National Institute of Education, 1 Nanyang Walk, Singapore 637616, Singapore",
+       "institution_ids": []
+      }
+     ]
+    }
+   ],
+   "institutions": [],
+   "countries_distinct_count": 0,
+   "institutions_distinct_count": 0,
+   "corresponding_author_ids": [
+    "https://openalex.org/A5014300381"
+   ],
+   "corresponding_institution_ids": [],
+   "apc_list": null,
+   "apc_paid": null,
+   "fwci": 26.3656,
+   "has_fulltext": false,
+   "cited_by_count": 347,
+   "citation_normalized_percentile": {
+    "value": 0.99622561,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+   },
+   "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+   },
+   "biblio": {
+    "volume": "43",
+    "issue": "1",
+    "first_page": "22",
+    "last_page": "36"
+   },
+   "is_retracted": false,
+   "is_paratext": false,
+   "is_xpac": false,
+   "primary_topic": {
+    "id": "https://openalex.org/T10907",
+    "display_name": "International Student and Expatriate Challenges",
+    "score": 0.9995999932289124,
+    "subfield": {
+     "id": "https://openalex.org/subfields/3315",
+     "display_name": "Communication"
+    },
+    "field": {
+     "id": "https://openalex.org/fields/33",
+     "display_name": "Social Sciences"
+    },
+    "domain": {
+     "id": "https://openalex.org/domains/2",
+     "display_name": "Social Sciences"
+    }
+   },
+   "topics": [
+    {
+     "id": "https://openalex.org/T10907",
+     "display_name": "International Student and Expatriate Challenges",
+     "score": 0.9995999932289124,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3315",
+      "display_name": "Communication"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12545",
+     "display_name": "Global Education and Multiculturalism",
+     "score": 0.9904000163078308,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3304",
+      "display_name": "Education"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    },
+    {
+     "id": "https://openalex.org/T12593",
+     "display_name": "Communication in Education and Healthcare",
+     "score": 0.9897000193595886,
+     "subfield": {
+      "id": "https://openalex.org/subfields/3207",
+      "display_name": "Social Psychology"
+     },
+     "field": {
+      "id": "https://openalex.org/fields/32",
+      "display_name": "Psychology"
+     },
+     "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+     }
+    }
+   ],
+   "keywords": [
+    {
+     "id": "https://openalex.org/keywords/sociocultural-evolution",
+     "display_name": "Sociocultural evolution",
+     "score": 0.8308817148208618
+    },
+    {
+     "id": "https://openalex.org/keywords/mainland-china",
+     "display_name": "Mainland China",
+     "score": 0.5958616733551025
+    },
+    {
+     "id": "https://openalex.org/keywords/higher-education",
+     "display_name": "Higher education",
+     "score": 0.5585985779762268
+    },
+    {
+     "id": "https://openalex.org/keywords/sociocultural-perspective",
+     "display_name": "Sociocultural perspective",
+     "score": 0.5331553220748901
+    },
+    {
+     "id": "https://openalex.org/keywords/psychology",
+     "display_name": "Psychology",
+     "score": 0.5221545696258545
+    },
+    {
+     "id": "https://openalex.org/keywords/china",
+     "display_name": "China",
+     "score": 0.4963281750679016
+    },
+    {
+     "id": "https://openalex.org/keywords/agency",
+     "display_name": "Agency (philosophy)",
+     "score": 0.49571287631988525
+    },
+    {
+     "id": "https://openalex.org/keywords/international-education",
+     "display_name": "International education",
+     "score": 0.48726311326026917
+    },
+    {
+     "id": "https://openalex.org/keywords/pedagogy",
+     "display_name": "Pedagogy",
+     "score": 0.4695121943950653
+    },
+    {
+     "id": "https://openalex.org/keywords/perspective",
+     "display_name": "Perspective (graphical)",
+     "score": 0.432722270488739
+    },
+    {
+     "id": "https://openalex.org/keywords/face",
+     "display_name": "Face (sociological concept)",
+     "score": 0.4267701804637909
+    },
+    {
+     "id": "https://openalex.org/keywords/population",
+     "display_name": "Population",
+     "score": 0.42362892627716064
+    },
+    {
+     "id": "https://openalex.org/keywords/sociology",
+     "display_name": "Sociology",
+     "score": 0.3530201315879822
+    },
+    {
+     "id": "https://openalex.org/keywords/social-psychology",
+     "display_name": "Social psychology",
+     "score": 0.3265402615070343
+    },
+    {
+     "id": "https://openalex.org/keywords/political-science",
+     "display_name": "Political science",
+     "score": 0.23711588978767395
+    },
+    {
+     "id": "https://openalex.org/keywords/social-science",
+     "display_name": "Social science",
+     "score": 0.14776375889778137
+    }
+   ],
+   "concepts": [
+    {
+     "id": "https://openalex.org/C196187386",
+     "wikidata": "https://www.wikidata.org/wiki/Q1050187",
+     "display_name": "Sociocultural evolution",
+     "level": 2,
+     "score": 0.8308817148208618
+    },
+    {
+     "id": "https://openalex.org/C107029721",
+     "wikidata": "https://www.wikidata.org/wiki/Q19188",
+     "display_name": "Mainland China",
+     "level": 3,
+     "score": 0.5958616733551025
+    },
+    {
+     "id": "https://openalex.org/C120912362",
+     "wikidata": "https://www.wikidata.org/wiki/Q136822",
+     "display_name": "Higher education",
+     "level": 2,
+     "score": 0.5585985779762268
+    },
+    {
+     "id": "https://openalex.org/C58213130",
+     "wikidata": "https://www.wikidata.org/wiki/Q17152554",
+     "display_name": "Sociocultural perspective",
+     "level": 3,
+     "score": 0.5331553220748901
+    },
+    {
+     "id": "https://openalex.org/C15744967",
+     "wikidata": "https://www.wikidata.org/wiki/Q9418",
+     "display_name": "Psychology",
+     "level": 0,
+     "score": 0.5221545696258545
+    },
+    {
+     "id": "https://openalex.org/C191935318",
+     "wikidata": "https://www.wikidata.org/wiki/Q148",
+     "display_name": "China",
+     "level": 2,
+     "score": 0.4963281750679016
+    },
+    {
+     "id": "https://openalex.org/C108170787",
+     "wikidata": "https://www.wikidata.org/wiki/Q3951828",
+     "display_name": "Agency (philosophy)",
+     "level": 2,
+     "score": 0.49571287631988525
+    },
+    {
+     "id": "https://openalex.org/C2779177650",
+     "wikidata": "https://www.wikidata.org/wiki/Q3595759",
+     "display_name": "International education",
+     "level": 3,
+     "score": 0.48726311326026917
+    },
+    {
+     "id": "https://openalex.org/C19417346",
+     "wikidata": "https://www.wikidata.org/wiki/Q7922",
+     "display_name": "Pedagogy",
+     "level": 1,
+     "score": 0.4695121943950653
+    },
+    {
+     "id": "https://openalex.org/C12713177",
+     "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+     "display_name": "Perspective (graphical)",
+     "level": 2,
+     "score": 0.432722270488739
+    },
+    {
+     "id": "https://openalex.org/C2779304628",
+     "wikidata": "https://www.wikidata.org/wiki/Q3503480",
+     "display_name": "Face (sociological concept)",
+     "level": 2,
+     "score": 0.4267701804637909
+    },
+    {
+     "id": "https://openalex.org/C2908647359",
+     "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+     "display_name": "Population",
+     "level": 2,
+     "score": 0.42362892627716064
+    },
+    {
+     "id": "https://openalex.org/C144024400",
+     "wikidata": "https://www.wikidata.org/wiki/Q21201",
+     "display_name": "Sociology",
+     "level": 0,
+     "score": 0.3530201315879822
+    },
+    {
+     "id": "https://openalex.org/C77805123",
+     "wikidata": "https://www.wikidata.org/wiki/Q161272",
+     "display_name": "Social psychology",
+     "level": 1,
+     "score": 0.3265402615070343
+    },
+    {
+     "id": "https://openalex.org/C17744445",
+     "wikidata": "https://www.wikidata.org/wiki/Q36442",
+     "display_name": "Political science",
+     "level": 0,
+     "score": 0.23711588978767395
+    },
+    {
+     "id": "https://openalex.org/C36289849",
+     "wikidata": "https://www.wikidata.org/wiki/Q34749",
+     "display_name": "Social science",
+     "level": 1,
+     "score": 0.14776375889778137
+    },
+    {
+     "id": "https://openalex.org/C41008148",
+     "wikidata": "https://www.wikidata.org/wiki/Q21198",
+     "display_name": "Computer science",
+     "level": 0,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C154945302",
+     "wikidata": "https://www.wikidata.org/wiki/Q11660",
+     "display_name": "Artificial intelligence",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C149923435",
+     "wikidata": "https://www.wikidata.org/wiki/Q37732",
+     "display_name": "Demography",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C19165224",
+     "wikidata": "https://www.wikidata.org/wiki/Q23404",
+     "display_name": "Anthropology",
+     "level": 1,
+     "score": 0.0
+    },
+    {
+     "id": "https://openalex.org/C199539241",
+     "wikidata": "https://www.wikidata.org/wiki/Q7748",
+     "display_name": "Law",
+     "level": 1,
+     "score": 0.0
+    }
+   ],
+   "mesh": [],
+   "locations_count": 2,
+   "locations": [
+    {
+     "id": "doi:10.1080/03075079.2016.1152466",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/03075079.2016.1152466",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S162196882",
+      "display_name": "Studies in Higher Education",
+      "issn_l": "0307-5079",
+      "issn": [
+       "0307-5079",
+       "1470-174X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+       "cwts-core",
+       "erih-plus",
+       "jufo-3",
+       "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319847",
+      "host_organization_name": "Routledge",
+      "host_organization_lineage": [
+       "https://openalex.org/P4310319847",
+       "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+       "Routledge",
+       "Taylor & Francis"
+      ],
+      "type": "journal"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "publishedVersion",
+     "is_accepted": true,
+     "is_published": true,
+     "raw_source_name": "Studies in Higher Education",
+     "raw_type": "journal-article"
+    },
+    {
+     "id": "pmh:oai:repository.nie.edu.sg:10497/18400",
+     "is_oa": false,
+     "landing_page_url": "https://doi.org/10.1080/03075079.2016.1152466",
+     "pdf_url": null,
+     "source": {
+      "id": "https://openalex.org/S7407063280",
+      "display_name": "NIE Digital Repository (National Institute of Education, Nanyang Technological University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+     },
+     "license": null,
+     "license_id": null,
+     "version": "acceptedVersion",
+     "is_accepted": true,
+     "is_published": false,
+     "raw_source_name": null,
+     "raw_type": "Article"
+    }
+   ],
+   "best_oa_location": null,
+   "sustainable_development_goals": [
+    {
+     "display_name": "Quality Education",
+     "score": 0.7900000214576721,
+     "id": "https://metadata.un.org/sdg/4"
+    }
+   ],
+   "x_sdgs": [],
+   "awards": [],
+   "funders": [],
+   "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+   },
+   "content_urls": null,
+   "referenced_works_count": 46,
+   "referenced_works": [
+    "https://openalex.org/W83724821",
+    "https://openalex.org/W203652243",
+    "https://openalex.org/W204713933",
+    "https://openalex.org/W369886720",
+    "https://openalex.org/W582562202",
+    "https://openalex.org/W657127458",
+    "https://openalex.org/W1510850377",
+    "https://openalex.org/W1569268909",
+    "https://openalex.org/W1576209168",
+    "https://openalex.org/W1708923219",
+    "https://openalex.org/W1761161266",
+    "https://openalex.org/W1969333617",
+    "https://openalex.org/W1969707665",
+    "https://openalex.org/W1977745162",
+    "https://openalex.org/W1989694566",
+    "https://openalex.org/W1992534384",
+    "https://openalex.org/W2001882824",
+    "https://openalex.org/W2004391701",
+    "https://openalex.org/W2037096082",
+    "https://openalex.org/W2043848804",
+    "https://openalex.org/W2065253763",
+    "https://openalex.org/W2066856930",
+    "https://openalex.org/W2068094266",
+    "https://openalex.org/W2083908441",
+    "https://openalex.org/W2091263214",
+    "https://openalex.org/W2104634759",
+    "https://openalex.org/W2120734799",
+    "https://openalex.org/W2133195189",
+    "https://openalex.org/W2134894735",
+    "https://openalex.org/W2135943618",
+    "https://openalex.org/W2139113466",
+    "https://openalex.org/W2143565172",
+    "https://openalex.org/W2150064502",
+    "https://openalex.org/W2464348322",
+    "https://openalex.org/W2473080198",
+    "https://openalex.org/W2478958051",
+    "https://openalex.org/W2513812005",
+    "https://openalex.org/W2606401545",
+    "https://openalex.org/W2783644464",
+    "https://openalex.org/W2910572681",
+    "https://openalex.org/W4211022696",
+    "https://openalex.org/W4236555244",
+    "https://openalex.org/W4245160705",
+    "https://openalex.org/W4246775161",
+    "https://openalex.org/W4297993686",
+    "https://openalex.org/W4301101985"
+   ],
+   "related_works": [
+    "https://openalex.org/W2355558012",
+    "https://openalex.org/W2959125995",
+    "https://openalex.org/W3113098436",
+    "https://openalex.org/W2580141542",
+    "https://openalex.org/W2295800130",
+    "https://openalex.org/W4286791983",
+    "https://openalex.org/W2037878609",
+    "https://openalex.org/W2665856432",
+    "https://openalex.org/W2106393035",
+    "https://openalex.org/W4315490638"
+   ],
+   "abstract_inverted_index": {
+    "Mainland": [
+     0
+    ],
+    "Chinese": [
+     1,
+     34,
+     57,
+     106
+    ],
+    "students": [
+     2,
+     58,
+     108,
+     145
+    ],
+    "form": [
+     3
+    ],
+    "the": [
+     4,
+     11,
+     91,
+     101
+    ],
+    "largest": [
+     5
+    ],
+    "international": [
+     6,
+     107,
+     144
+    ],
+    "tertiary": [
+     7
+    ],
+    "student": [
+     8
+    ],
+    "population": [
+     9
+    ],
+    "in": [
+     10,
+     98,
+     122,
+     130
+    ],
+    "USA,": [
+     12
+    ],
+    "yet": [
+     13
+    ],
+    "most": [
+     14
+    ],
+    "discourse": [
+     15
+    ],
+    "around": [
+     16,
+     61
+    ],
+    "them": [
+     17
+    ],
+    "tends": [
+     18
+    ],
+    "to": [
+     19,
+     39,
+     125,
+     139
+    ],
+    "adopt": [
+     20
+    ],
+    "a": [
+     21,
+     25,
+     71
+    ],
+    "deficit": [
+     22
+    ],
+    "perspective.": [
+     23
+    ],
+    "Adopting": [
+     24
+    ],
+    "hybridized": [
+     26
+    ],
+    "sociocultural": [
+     27,
+     48,
+     78
+    ],
+    "framework,": [
+     28
+    ],
+    "this": [
+     29,
+     113
+    ],
+    "qualitative": [
+     30
+    ],
+    "study": [
+     31,
+     114
+    ],
+    "follows": [
+     32
+    ],
+    "18": [
+     33
+    ],
+    "undergraduates": [
+     35
+    ],
+    "over": [
+     36,
+     52,
+     135
+    ],
+    "one": [
+     37
+    ],
+    "year": [
+     38
+    ],
+    "examine": [
+     40
+    ],
+    "how": [
+     41
+    ],
+    "challenges": [
+     42,
+     60,
+     88,
+     126
+    ],
+    "they": [
+     43,
+     117
+    ],
+    "face": [
+     44,
+     59
+    ],
+    "are": [
+     45,
+     109
+    ],
+    "influenced": [
+     46
+    ],
+    "by": [
+     47
+    ],
+    "contexts": [
+     49
+    ],
+    "and": [
+     50,
+     66,
+     77,
+     80,
+     85,
+     95,
+     111,
+     128,
+     133,
+     146,
+     148
+    ],
+    "change": [
+     51
+    ],
+    "time.": [
+     53,
+     136
+    ],
+    "Findings": [
+     54,
+     137
+    ],
+    "reveal": [
+     55
+    ],
+    "that": [
+     56,
+     105,
+     116,
+     152
+    ],
+    "relearning": [
+     62
+    ],
+    "new": [
+     63,
+     74
+    ],
+    "language": [
+     64
+    ],
+    "skills": [
+     65
+    ],
+    "communication": [
+     67
+    ],
+    "styles,": [
+     68
+    ],
+    "thinking": [
+     69
+    ],
+    "like": [
+     70
+    ],
+    "\u2018Westerner\u2019,": [
+     72
+    ],
+    "understanding": [
+     73,
+     142
+    ],
+    "classroom": [
+     75
+    ],
+    "expectations": [
+     76,
+     97
+    ],
+    "contexts,": [
+     79
+    ],
+    "finding": [
+     81
+    ],
+    "balance": [
+     82
+    ],
+    "between": [
+     83,
+     143
+    ],
+    "work": [
+     84
+    ],
+    "play.": [
+     86
+    ],
+    "These": [
+     87
+    ],
+    "arise": [
+     89
+    ],
+    "from": [
+     90
+    ],
+    "different": [
+     92
+    ],
+    "school,": [
+     93
+    ],
+    "societal,": [
+     94
+    ],
+    "cultural": [
+     96
+    ],
+    "China": [
+     99
+    ],
+    "versus": [
+     100
+    ],
+    "USA.": [
+     102
+    ],
+    "Debunking": [
+     103
+    ],
+    "stereotypes": [
+     104
+    ],
+    "passive": [
+     110
+    ],
+    "needy,": [
+     112
+    ],
+    "argues": [
+     115
+    ],
+    "possess": [
+     118
+    ],
+    "agency": [
+     119
+    ],
+    "as": [
+     120
+    ],
+    "evident": [
+     121
+    ],
+    "their": [
+     123,
+     131
+    ],
+    "responses": [
+     124
+    ],
+    "faced": [
+     127
+    ],
+    "changes": [
+     129
+    ],
+    "attitudes": [
+     132
+    ],
+    "behaviors": [
+     134
+    ],
+    "aim": [
+     138
+    ],
+    "increase": [
+     140
+    ],
+    "intercultural": [
+     141
+    ],
+    "staff": [
+     147
+    ],
+    "improve": [
+     149
+    ],
+    "college": [
+     150
+    ],
+    "policies": [
+     151
+    ],
+    "address": [
+     153
+    ],
+    "students\u2019": [
+     154
+    ],
+    "needs.": [
+     155
+    ]
+   },
+   "counts_by_year": [
+    {
+     "year": 2026,
+     "cited_by_count": 25
+    },
+    {
+     "year": 2025,
+     "cited_by_count": 64
+    },
+    {
+     "year": 2024,
+     "cited_by_count": 49
+    },
+    {
+     "year": 2023,
+     "cited_by_count": 46
+    },
+    {
+     "year": 2022,
+     "cited_by_count": 43
+    },
+    {
+     "year": 2021,
+     "cited_by_count": 40
+    },
+    {
+     "year": 2020,
+     "cited_by_count": 32
+    },
+    {
+     "year": 2019,
+     "cited_by_count": 21
+    },
+    {
+     "year": 2018,
+     "cited_by_count": 16
+    },
+    {
+     "year": 2017,
+     "cited_by_count": 10
+    },
+    {
+     "year": 2016,
+     "cited_by_count": 1
+    }
+   ],
+   "updated_date": "2026-09-16T18:09:00.828671",
+   "created_date": "2025-10-10T00:00:00"
+  }
+ ],
+ "group_by": []
+}

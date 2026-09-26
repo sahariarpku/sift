@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-save-protocol"
+description = "Enables the save_protocol command without any pre-configured scope."
+commands.allow = ["save_protocol"]
+
+[[permission]]
+identifier = "deny-save-protocol"
+description = "Denies the save_protocol command without any pre-configured scope."
+commands.deny = ["save_protocol"]

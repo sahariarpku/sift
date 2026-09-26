@@ -1,0 +1,180 @@
+{
+ "totalHits": 2091,
+ "limit": 2,
+ "offset": 0,
+ "results": [
+  {
+   "acceptedDate": "",
+   "arxivId": null,
+   "authors": [
+    {
+     "name": "Wang, Yiran"
+    }
+   ],
+   "citationCount": 0,
+   "contributors": [
+    "Hammond, Daniel",
+    "Gentz, Natascha"
+   ],
+   "outputs": [
+    "https://api.core.ac.uk/v3/outputs/429734608"
+   ],
+   "createdDate": "2019-04-08T16:38:59+01:00",
+   "dataProviders": [
+    {
+     "id": 39,
+     "name": "Edinburgh Research Archive",
+     "url": "https://api.core.ac.uk/v3/data-providers/39",
+     "logo": "https://api.core.ac.uk/data-providers/39/logo"
+    }
+   ],
+   "depositedDate": "2019-04-08T16:38:59+01:00",
+   "abstract": "As international education continues to expand, countries providing such opportunities not only\r\nbenefit but also face challenges. For traditional destinations, including the United States and the\r\nUnited Kingdom, the number of international students has been falling. At the same time emerging\r\neconomies, such as China, are witnessing a rapid increase in the number of international students\r\nenrolled in their universities. China is, therefore, beginning to play an important role in the\r\ncompetitive global market for higher education. This thesis analyses and compares the experiences of\r\ninternational students in the UK and China using Transformative Learning theory. While there is an\r\nextensive literature on both international higher education and also Transformative Learning theory\r\nthere are three important contributions that this thesis makes. First, this research applies the theory to\r\ntwo international student groups: UK students in Chinese universities and Chinese students in UK\r\nuniversities. Second, this study includes a focus on the intercultural learning of Chinese doctoral\r\nstudents in the UK filling a gap in current research. Finally, this investigation has extended the very\r\nlimited number of current research projects on UK students in China.\r\nIt is generally acknowledged that international students will experience various challenges when they\r\nare in a culturally different context. Little research has focused on how and why learners are\r\ntransformed through exposure to their new environment and, also, why sometimes they are not. This\r\nstudy applies Transformative Learning theory to address two research questions: first, do UK international students in Chinese universities and Chinese international students in UK universities\r\nexperience transformational learning in/during their overseas studies? Second, what factors foster or\r\nimpede international students\u2019 experience of transformative learning? To answer the above questions\r\nsemi-structured interviews were used to investigate international students\u2019 academic and social\r\nexperiences. Based on the insights provided by Mezirow, Taylor, and previous studies on international\r\nstudents, I argue that international students\u2019 intercultural experience is a complex process.\r\nTransformation can occur in various ways and social and personal perspectives underpin the\r\ntransformative learning of the students. Contributing factors include culture shock, educational\r\nconventions, the student\u2019s motivation, expectations, personality, gender and previous work\r\nexperience. The results reflect the significance of differences in teaching styles in the UK and China\r\nand the impact this can have on the student teaching and learning process when they move to a new\r\nuniversity",
+   "documentType": null,
+   "doi": null,
+   "downloadUrl": "https://core.ac.uk/download/429734608.pdf",
+   "fieldOfStudy": "Thesis or Dissertation",
+   "fullText": " \n \n \n \n \n \n \n \n \n \n \n \n \nThis thesis has been submitted in fulfilment of the requirements for a postgraduate degree \n(e.g. PhD, MPhil, DClinPsychol) at the University of Edinburgh. Please note the following \nterms and conditions of use: \n \nThis work is protected by copyright and other intellectual property rights, which are \nretained by the thesis author, unless otherwise stated. \nA copy can be downloaded for personal non-commercial research or study, without \nprior permission or charge. \nThis thesis cannot be reproduced or quoted extensively from without first obtaining \npermission in writing from the author. \nThe content must not be changed in any way or sold commercially in any format or \nmedium without the formal permission of the author. \nWhen referring to this work, full bibliographic details including the author, title, \nawarding institution and date of the thesis must be given. \n \n \nA study on transformative learning of UK students in \nChina and Chinese students in the UK \n \n \n \n \n \n \n \n \n \n \n \n \nYiran Wang \n \n \n \nDoctor of Philosophy \nThe University of Edinburgh \n2018 \n \n \n\u00a0 1\u00a0/\u00a0266\u00a0\n\u00a0\nAbstract \n \nAs international education continues to expand, countries providing such opportunities not \nonly benefit but also face challenges. For traditional destinations, including the United States \nand the United Kingdom, the number of international students has been falling. At the same \ntime emerging economies, such as China, are witnessing a rapid increase in the number of \ninternational students enrolled in their universities. China is, therefore, beginning to play an \nimportant role in the competitive global market for higher education. This thesis analyses and \ncompares the experiences of international students in the UK and China using Transformative \nLearning theory. While there is an extensive literature on both international higher education \nand also Transformative Learning theory there are three important contributions that this thesis \nmakes. First, this res [trimmed for fixture]",
+   "id": 8529227,
+   "identifiers": [
+    {
+     "identifier": "429734608",
+     "type": "core_id"
+    },
+    {
+     "identifier": "oai:era.ed.ac.uk:1842/31509",
+     "type": "oai_id"
+    },
+    {
+     "identifier": "oai:era.ed.ac.uk:1842/31509",
+     "type": "oai"
+    }
+   ],
+   "title": "Study on transformative learning of UK students in China and Chinese students in the UK",
+   "language": null,
+   "magId": null,
+   "oaiIds": [
+    "oai:era.ed.ac.uk:1842/31509"
+   ],
+   "publishedDate": "2018-07-07T01:00:00+01:00",
+   "publisher": "The University of Edinburgh",
+   "pubmedId": null,
+   "references": [],
+   "sourceFulltextUrls": [
+    "https://core.ac.uk/download/429734608.pdf"
+   ],
+   "updatedDate": "",
+   "yearPublished": 2018,
+   "journals": [],
+   "links": [
+    {
+     "type": "download",
+     "url": "https://core.ac.uk/download/429734608.pdf"
+    },
+    {
+     "type": "reader",
+     "url": "https://core.ac.uk/reader/429734608"
+    },
+    {
+     "type": "thumbnail_m",
+     "url": "https://core.ac.uk/image/429734608/large"
+    },
+    {
+     "type": "thumbnail_l",
+     "url": "https://core.ac.uk/image/429734608/large"
+    },
+    {
+     "type": "display",
+     "url": "https://core.ac.uk/works/8529227"
+    }
+   ]
+  },
+  {
+   "acceptedDate": "",
+   "arxivId": null,
+   "authors": [
+    {
+     "name": "Wang, Yiran"
+    }
+   ],
+   "citationCount": 0,
+   "contributors": [
+    "Hammond, Daniel",
+    "Gentz, Natascha"
+   ],
+   "outputs": [
+    "https://api.core.ac.uk/v3/outputs/429734608"
+   ],
+   "createdDate": "2021-06-07T16:46:48+01:00",
+   "dataProviders": [
+    {
+     "id": 39,
+     "name": "Edinburgh Research Archive",
+     "url": "https://api.core.ac.uk/v3/data-providers/39",
+     "logo": "https://api.core.ac.uk/data-providers/39/logo"
+    }
+   ],
+   "depositedDate": "2019-04-08T16:38:59+01:00",
+   "abstract": "As international education continues to expand, countries providing such opportunities not only\r\nbenefit but also face challenges. For traditional destinations, including the United States and the\r\nUnited Kingdom, the number of international students has been falling. At the same time emerging\r\neconomies, such as China, are witnessing a rapid increase in the number of international students\r\nenrolled in their universities. China is, therefore, beginning to play an important role in the\r\ncompetitive global market for higher education. This thesis analyses and compares the experiences of\r\ninternational students in the UK and China using Transformative Learning theory. While there is an\r\nextensive literature on both international higher education and also Transformative Learning theory\r\nthere are three important contributions that this thesis makes. First, this research applies the theory to\r\ntwo international student groups: UK students in Chinese universities and Chinese students in UK\r\nuniversities. Second, this study includes a focus on the intercultural learning of Chinese doctoral\r\nstudents in the UK filling a gap in current research. Finally, this investigation has extended the very\r\nlimited number of current research projects on UK students in China.\r\nIt is generally acknowledged that international students will experience various challenges when they\r\nare in a culturally different context. Little research has focused on how and why learners are\r\ntransformed through exposure to their new environment and, also, why sometimes they are not. This\r\nstudy applies Transformative Learning theory to address two research questions: first, do UK international students in Chinese universities and Chinese international students in UK universities\r\nexperience transformational learning in/during their overseas studies? Second, what factors foster or\r\nimpede international students\u2019 experience of transformative learning? To answer the above questions\r\nsemi-structured interviews were used to investigate international students\u2019 academic and social\r\nexperiences. Based on the insights provided by Mezirow, Taylor, and previous studies on international\r\nstudents, I argue that international students\u2019 intercultural experience is a complex process.\r\nTransformation can occur in various ways and social and personal perspectives underpin the\r\ntransformative learning of the students. Contributing factors include culture shock, educational\r\nconventions, the student\u2019s motivation, expectations, personality, gender and previous work\r\nexperience. The results reflect the significance of differences in teaching styles in the UK and China\r\nand the impact this can have on the student teaching and learning process when they move to a new\r\nuniversity",
+   "documentType": "thesis",
+   "doi": null,
+   "downloadUrl": "https://core.ac.uk/download/429734608.pdf",
+   "fieldOfStudy": null,
+   "fullText": " \n \n \n \n \n \n \n \n \n \n \n \n \nThis thesis has been submitted in fulfilment of the requirements for a postgraduate degree \n(e.g. PhD, MPhil, DClinPsychol) at the University of Edinburgh. Please note the following \nterms and conditions of use: \n \nThis work is protected by copyright and other intellectual property rights, which are \nretained by the thesis author, unless otherwise stated. \nA copy can be downloaded for personal non-commercial research or study, without \nprior permission or charge. \nThis thesis cannot be reproduced or quoted extensively from without first obtaining \npermission in writing from the author. \nThe content must not be changed in any way or sold commercially in any format or \nmedium without the formal permission of the author. \nWhen referring to this work, full bibliographic details including the author, title, \nawarding institution and date of the thesis must be given. \n \n \nA study on transformative learning of UK students in \nChina and Chinese students in the UK \n \n \n \n \n \n \n \n \n \n \n \n \nYiran Wang \n \n \n \nDoctor of Philosophy \nThe University of Edinburgh \n2018 \n \n \n\u00a0 1\u00a0/\u00a0266\u00a0\n\u00a0\nAbstract \n \nAs international education continues to expand, countries providing such opportunities not \nonly benefit but also face challenges. For traditional destinations, including the United States \nand the United Kingdom, the number of international students has been falling. At the same \ntime emerging economies, such as China, are witnessing a rapid increase in the number of \ninternational students enrolled in their universities. China is, therefore, beginning to play an \nimportant role in the competitive global market for higher education. This thesis analyses and \ncompares the experiences of international students in the UK and China using Transformative \nLearning theory. While there is an extensive literature on both international higher education \nand also Transformative Learning theory there are three important contributions that this thesis \nmakes. First, this res [trimmed for fixture]",
+   "id": 394876694,
+   "identifiers": [
+    {
+     "identifier": "429734608",
+     "type": "core_id"
+    },
+    {
+     "identifier": "oai:era.ed.ac.uk:1842/31509",
+     "type": "oai_id"
+    },
+    {
+     "identifier": "oai:era.ed.ac.uk:1842/31509",
+     "type": "oai"
+    }
+   ],
+   "title": "Study on transformative learning of UK students in China and Chinese students in the UK",
+   "language": null,
+   "magId": null,
+   "oaiIds": [
+    "oai:era.ed.ac.uk:1842/31509"
+   ],
+   "publishedDate": "2018-07-07T01:00:00+01:00",
+   "publisher": "The University of Edinburgh",
+   "pubmedId": null,
+   "references": [],
+   "sourceFulltextUrls": [
+    "https://core.ac.uk/download/429734608.pdf"
+   ],
+   "updatedDate": "2026-08-24T06:58:31+01:00",
+   "yearPublished": 2018,
+   "journals": [],
+   "links": [
+    {
+     "type": "download",
+     "url": "https://core.ac.uk/download/429734608.pdf"
+    },
+    {
+     "type": "reader",
+     "url": "https://core.ac.uk/reader/429734608"
+    },
+    {
+     "type": "thumbnail_m",
+     "url": "https://core.ac.uk/image/429734608/large"
+    },
+    {
+     "type": "thumbnail_l",
+     "url": "https://core.ac.uk/image/429734608/large"
+    },
+    {
+     "type": "display",
+     "url": "https://core.ac.uk/works/394876694"
+    }
+   ]
+  }
+ ],
+ "searchId": "0ee8514e92243cb0f373f1fc02f22ddb"
+}

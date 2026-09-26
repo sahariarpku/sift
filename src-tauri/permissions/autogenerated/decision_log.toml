@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-decision-log"
+description = "Enables the decision_log command without any pre-configured scope."
+commands.allow = ["decision_log"]
+
+[[permission]]
+identifier = "deny-decision-log"
+description = "Denies the decision_log command without any pre-configured scope."
+commands.deny = ["decision_log"]
